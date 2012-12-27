@@ -211,3 +211,4 @@ module IsParanoid
 end
 
 ActiveRecord::Base.send(:extend, IsParanoid)
+ActiveRecord::Relation.send(:extend, IsParanoid)
